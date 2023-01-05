@@ -30,7 +30,9 @@
 
 # Link de acesso.
 
-[PAGINA]("https://mywebtwo.netlify.app")
+<html>
+    <a href="https://mywebtwo.netlify.app">Página</a>
+</html>
 
 # Autor
 
@@ -39,4 +41,6 @@
     <br>
 </html>
 
-[Douglas Arthur da Silva Bento]("https://github.com/douglasarthurr")
+<html>
+    <a href="https://github.com/douglasarthurr"> Douglas Arthur da Silva Bento</a>
+</html>
