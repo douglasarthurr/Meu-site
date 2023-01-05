@@ -30,7 +30,7 @@
 
 # Link de acesso.
 
-[PAGINA]("link")
+[PAGINA]("https://mywebtwo.netlify.app")
 
 # Autor
 
