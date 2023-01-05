@@ -2,6 +2,7 @@
 
 * ## Objetivo/ideia.
 ### Criar um pagina web com conhecimentos basicos em HTML E CSS, com navegação entre abas, para aprendizagem prática, e portfólio.
+### Atualização em deixar o site responsivos para todos o dispositivos.
 
 <html> 
     <img src="./images/printpagina.png">

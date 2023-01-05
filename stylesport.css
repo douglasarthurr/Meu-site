@@ -1,85 +1,405 @@
 @import url('https://fonts.googleapis.com/css2?family=Imprima&family=JetBrains+Mono&family=Roboto:wght@700&display=swap');
-*{
-    box-sizing: border-box;
-    padding: 0;
-    margin: 0;
-    text-decoration: none;
+@media screen and (min-width: 0px){ 
+    *{
+        box-sizing: border-box;
+        padding: 0;
+        margin: 0;
+        text-decoration: none;
+    }
+
+    body{
+        font-size: 100%;
+        background-image: url("./images/fundo_cell.svg");
+        background-repeat: no-repeat ;
+        background-size: cover;
+        width: auto;
+        height: 200%;
+    }
+
+    .Cabecalho{
+        width: auto;
+        padding: 18px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+        background-color: #DCDCDC;
+    }   
+
+    .Cabecalho-item{
+        font-size: 10px;
+        color: #010440;
+        font-family: 'JetBrains Mono', monospace;
+    }
+    .Cabecalho-item:hover{
+        font-size: 10px;
+        color: #000ac0;
+        font-family: 'JetBrains Mono', monospace;
+    }
+
+    .titulo1{
+        color: #FFFDE7;
+        display: flex;
+        font-family: 'Imprima', sans-serif;
+        font-size: 36px;
+        flex-direction: column;
+        align-items: center;
+        padding-top: 101px;
+        padding-bottom: 31px;
+    }
+
+    .texto{
+        color: #FFFDE7;
+        display: flex;
+        font-family: 'Imprima', sans-serif;
+        font-size: 26px;
+        flex-direction: column;
+        align-items: center;
+        padding-inline: 10%;
+
+    }
+    .texto1{
+        color: #FFFDE7;
+        display: flex;
+        font-family: 'Imprima', sans-serif;
+        font-size: 26px;
+        flex-direction: column;
+        align-items: center;
+        padding-top: 31px;
+        padding-inline: 10%;
+    }
+    .hover-text{
+        color: #FFFDE7;
+        display: flex;
+        font-family: 'Imprima', sans-serif;
+        font-size: 26px;
+        flex-direction: column;
+        align-items: center;
+        padding-top: 31px;
+    }
+    .hover-text:hover{
+        display: flex;
+        font-family: 'Imprima', sans-serif;
+        font-size: 26px;
+        flex-direction: column;
+        align-items: center;
+        padding-top: 31px;
+        color: #000ac0;
+    }
+
+    .manutencao{
+        display: block;
+        padding: 60px;
+        margin: 0 auto;
+        border-top: 0.4px solid #FFFDE7;
+        width: 100%;
+        height: 100%;
+
+    }
+
+    .Logo{
+        width: 15%;
+    }
+
 }
-body{
-    font-size: 100%;
-    background-image: url("./images/fundo.svg");
-    background-repeat: no-repeat ;
-    background-size: cover;
-    width: auto;
-    height: 2024px;
+
+@media screen and (min-width: 320px){  
+
+    *{
+        box-sizing: border-box;
+        padding: 0;
+        margin: 0;
+        text-decoration: none;
+    }
+
+    body{
+        font-size: 100%;
+        background-image: url("./images/fundo_cell.svg");
+        background-repeat: no-repeat ;
+        background-size: cover;
+        width: auto;
+        height: 200%;
+    }
+
+    .Cabecalho{
+        width: auto;
+        padding: 18px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+        background-color: #DCDCDC;
+    }   
+
+    .Cabecalho-item{
+        font-size: 18px;
+        color: #010440;
+        font-family: 'JetBrains Mono', monospace;
+    }
+    .Cabecalho-item:hover{
+        font-size: 18px;
+        color: #000ac0;
+        font-family: 'JetBrains Mono', monospace;
+    }
+
+    .titulo1{
+        color: #FFFDE7;
+        display: flex;
+        font-family: 'Imprima', sans-serif;
+        font-size: 36px;
+        flex-direction: column;
+        align-items: center;
+        padding-top: 101px;
+        padding-bottom: 31px;
+    }
+
+    .texto{
+        color: #FFFDE7;
+        display: flex;
+        font-family: 'Imprima', sans-serif;
+        font-size: 26px;
+        flex-direction: column;
+        align-items: center;
+        padding-inline: 10%;
+
+    }
+    .texto1{
+        color: #FFFDE7;
+        display: flex;
+        font-family: 'Imprima', sans-serif;
+        font-size: 26px;
+        flex-direction: column;
+        align-items: center;
+        padding-top: 31px;
+        padding-inline: 10%;
+    }
+    .hover-text{
+        color: #FFFDE7;
+        display: flex;
+        font-family: 'Imprima', sans-serif;
+        font-size: 26px;
+        flex-direction: column;
+        align-items: center;
+        padding-top: 31px;
+    }
+    .hover-text:hover{
+        display: flex;
+        font-family: 'Imprima', sans-serif;
+        font-size: 26px;
+        flex-direction: column;
+        align-items: center;
+        padding-top: 31px;
+        color: #000ac0;
+    }
+
+    .manutencao{
+        display: block;
+        padding: 60px;
+        margin: 0 auto;
+        border-top: 0.4px solid #FFFDE7;
+        width: 90%;
+        height: 90%;
+
+    }
+
+    .Logo{
+        width: 10%;
+    }
 }
-.Cabecalho{
-    width: auto;
-    padding: 24px;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    align-items: center;
-    background-color: #DCDCDC;
-}   
-.Cabecalho-item{
-    font-size: 24px;
-    color: #010440;
-    font-family: 'JetBrains Mono', monospace;
+@media screen and (min-width: 834px){  
+    *{
+        box-sizing: border-box;
+        padding: 0;
+        margin: 0;
+        text-decoration: none;
+    }
+
+    body{
+        font-size: 100%;
+        background-image: url("./images/fundo.svg");
+        background-repeat: no-repeat ;
+        background-size: cover;
+        width: auto;
+        height: 2024px;
+    }
+
+    .Cabecalho{
+        width: auto;
+        padding: 24px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+        background-color: #DCDCDC;
+    }   
+
+    .Cabecalho-item{
+        font-size: 24px;
+        color: #010440;
+        font-family: 'JetBrains Mono', monospace;
+    }
+    .Cabecalho-item:hover{
+        font-size: 24px;
+        color: #000ac0;
+        font-family: 'JetBrains Mono', monospace;
+    }
+
+    .titulo1{
+        color: #FFFDE7;
+        display: flex;
+        font-family: 'Imprima', sans-serif;
+        font-size: 48px;
+        flex-direction: column;
+        align-items: center;
+        padding-top: 101px;
+        padding-bottom: 31px;
+    }
+
+    .texto{
+        color: #FFFDE7;
+        display: flex;
+        font-family: 'Imprima', sans-serif;
+        font-size: 36px;
+        flex-direction: column;
+        align-items: center;
+        padding-inline: 10%;
+
+    }
+    .texto1{
+        color: #FFFDE7;
+        display: flex;
+        font-family: 'Imprima', sans-serif;
+        font-size: 36px;
+        flex-direction: column;
+        align-items: center;
+        padding-top: 31px;
+        padding-inline: 10%;
+    }
+    .hover-text{
+        color: #FFFDE7;
+        display: flex;
+        font-family: 'Imprima', sans-serif;
+        font-size: 30px;
+        flex-direction: column;
+        align-items: center;
+        padding-top: 31px;
+    }
+    .hover-text:hover{
+        display: flex;
+        font-family: 'Imprima', sans-serif;
+        font-size: 30px;
+        flex-direction: column;
+        align-items: center;
+        padding-top: 31px;
+        color: #000ac0;
+    }
+
+    .manutencao{
+        display: block;
+        padding: 60px;
+        margin: 0 auto;
+        border-top: 0.4px solid #FFFDE7;
+    }
+
+    .Logo{
+        width: 8%;
+    }
 }
-.Cabecalho-item:hover{
-    font-size: 24px;
-    color: #000ac0;
-    font-family: 'JetBrains Mono', monospace;
-}
-.titulo1{
-    color: #FFFDE7;
-    display: flex;
-    font-family: 'Imprima', sans-serif;
-    font-size: 48px;
-    flex-direction: column;
-    align-items: center;
-    padding-top: 101px;
-    padding-bottom: 31px;
-}
-.texto{
-    color: #FFFDE7;
-    display: flex;
-    font-family: 'Imprima', sans-serif;
-    font-size: 36px;
-    flex-direction: column;
-    align-items: center;
-}
-.texto1{
-    color: #FFFDE7;
-    display: flex;
-    font-family: 'Imprima', sans-serif;
-    font-size: 36px;
-    flex-direction: column;
-    align-items: center;
-    padding-top: 31px;
-}
-.hover-text{
-    color: #FFFDE7;
-    display: flex;
-    font-family: 'Imprima', sans-serif;
-    font-size: 36px;
-    flex-direction: column;
-    align-items: center;
-    padding-top: 31px;
-}
-.hover-text:hover{
-    display: flex;
-    font-family: 'Imprima', sans-serif;
-    font-size: 36px;
-    flex-direction: column;
-    align-items: center;
-    padding-top: 31px;
-    color: #000ac0;
-}
-.manutencao{
-    display: block;
-    padding: 60px;
-    margin: 0 auto;
-    border-top: 0.4px solid #FFFDE7;
+
+@media screen and (min-width: 1138px){ 
+    *{
+        box-sizing: border-box;
+        padding: 0;
+        margin: 0;
+        text-decoration: none;
+    }
+
+    body{
+        font-size: 100%;
+        background-image: url("./images/fundo.svg");
+        background-repeat: no-repeat ;
+        background-size: cover;
+        width: auto;
+        height: 2024px;
+    }
+
+    .Cabecalho{
+        width: auto;
+        padding: 24px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+        background-color: #DCDCDC;
+    }   
+
+    .Cabecalho-item{
+        font-size: 24px;
+        color: #010440;
+        font-family: 'JetBrains Mono', monospace;
+    }
+    .Cabecalho-item:hover{
+        font-size: 24px;
+        color: #000ac0;
+        font-family: 'JetBrains Mono', monospace;
+    }
+
+    .titulo1{
+        color: #FFFDE7;
+        display: flex;
+        font-family: 'Imprima', sans-serif;
+        font-size: 48px;
+        flex-direction: column;
+        align-items: center;
+        padding-top: 101px;
+        padding-bottom: 31px;
+    }
+
+    .texto{
+        color: #FFFDE7;
+        display: flex;
+        font-family: 'Imprima', sans-serif;
+        font-size: 36px;
+        flex-direction: column;
+        align-items: center;
+
+    }
+    .texto1{
+        color: #FFFDE7;
+        display: flex;
+        font-family: 'Imprima', sans-serif;
+        font-size: 36px;
+        flex-direction: column;
+        align-items: center;
+        padding-top: 31px;
+    }
+    .hover-text{
+        color: #FFFDE7;
+        display: flex;
+        font-family: 'Imprima', sans-serif;
+        font-size: 36px;
+        flex-direction: column;
+        align-items: center;
+        padding-top: 31px;
+    }
+    .hover-text:hover{
+        display: flex;
+        font-family: 'Imprima', sans-serif;
+        font-size: 36px;
+        flex-direction: column;
+        align-items: center;
+        padding-top: 31px;
+        color: #000ac0;
+    }
+
+    .manutencao{
+        display: block;
+        padding: 60px;
+        margin: 0 auto;
+        border-top: 0.4px solid #FFFDE7;
+    }
+
+    .Logo{
+        width: auto;
+    }
 }
