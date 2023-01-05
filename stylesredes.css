@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Imprima&family=JetBrains+Mono&family=Roboto:wght@700&display=swap');
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+}
+body{
+    font-size: 100%;
+    background-image: url("./images/fundo.svg");
+    background-repeat: no-repeat ;
+    background-size: cover;
+    width: auto;
+    height: 2024px;
+}
+.Cabecalho{
+    width: auto;
+    padding: 24px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #DCDCDC;
+}   
+.Cabecalho-item{
+    font-size: 24px;
+    color: #010440;
+    font-family: 'JetBrains Mono', monospace;
+}
+.Cabecalho-item:hover{
+    font-size: 24px;
+    color: #000ac0;
+    font-family: 'JetBrains Mono', monospace;
+}
+.titulo1{
+    color: #FFFDE7;
+    display: flex;
+    font-family: 'Imprima', sans-serif;
+    font-size: 48px;
+    flex-direction: column;
+    align-items: center;
+    gap: 553px;
+    padding-top: 101px;
+    padding-bottom: 31px;
+}
+.texto{
+    color: #FFFDE7;
+    display: flex;
+    font-family: 'Imprima', sans-serif;
+    font-size: 36px;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 31px;
+}
+.texto:hover{
+    color: #000ac0;
+}
+.foto-minha-pagina{
+    display: block;
+    padding: 60px;
+    margin: 0 auto;
+    border-top: 0.4px solid #FFFDE7;
+}
