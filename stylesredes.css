@@ -19,7 +19,7 @@
     
     .Cabecalho{
         width: auto;
-        padding: 8px;
+        padding: 3px;
         display: flex;
         flex-direction: row;
         justify-content: space-around;
@@ -28,12 +28,12 @@
     }   
 
     .Cabecalho-item{
-        font-size: 10px;
+        font-size: 8px;
         color: #010440;
         font-family: 'JetBrains Mono', monospace;
     }
     .Cabecalho-item:hover{
-        font-size: 10px;
+        font-size: 8px;
         color: #000ac0;
         font-family: 'JetBrains Mono', monospace;
     }
@@ -42,28 +42,27 @@
         color: #FFFDE7;
         display: flex;
         font-family: 'Imprima', sans-serif;
-        font-size: 22px;
+        font-size: 20px;
         flex-direction: column;
         align-items: center;
-        padding-top: 101px;
-        padding-bottom: 31px;
-        padding-inline: 10%;
+        padding-top: 50px;
+        padding-bottom: 18px;
     }
 
     .texto{
         color: #FFFDE7;
         display: flex;
         font-family: 'Imprima', sans-serif;
-        font-size: 20px;
+        font-size: 14px;
         flex-direction: column;
         align-items: center;
-        padding-inline: 10%;
+        padding-inline: 5%;
         padding-top: 2%;
 
     }
 
     .Logo{
-        width: 10%;
+        width: 8%;
     }
 
     .texto:hover{
@@ -91,7 +90,7 @@
     
     .Cabecalho{
         width: auto;
-        padding: 13px;
+        padding: 8px;
         display: flex;
         flex-direction: row;
         justify-content: space-around;
@@ -114,11 +113,11 @@
         color: #FFFDE7;
         display: flex;
         font-family: 'Imprima', sans-serif;
-        font-size: 36px;
+        font-size: 24px;
         flex-direction: column;
         align-items: center;
-        padding-top: 101px;
-        padding-bottom: 31px;
+        padding-top: 70px;
+        padding-bottom: 25px;
         
     }
 
@@ -126,10 +125,10 @@
         color: #FFFDE7;
         display: flex;
         font-family: 'Imprima', sans-serif;
-        font-size: 26px;
+        font-size: 18px;
         flex-direction: column;
         align-items: center;
-        padding-inline: 10%;
+        padding-inline: 5%;
         padding-top: 2%;
 
     }
@@ -139,7 +138,7 @@
     }
 
     .Logo{
-        width: 10%;
+        height: auto;
     }
 
 }
@@ -159,7 +158,7 @@
         background-repeat: no-repeat ;
         background-size: cover;
         width: auto;
-        height: 2024px;
+        height: auto;
     }
 
     .Cabecalho{
@@ -173,12 +172,12 @@
     }   
 
     .Cabecalho-item{
-        font-size: 24px;
+        font-size: 20px;
         color: #010440;
         font-family: 'JetBrains Mono', monospace;
     }
     .Cabecalho-item:hover{
-        font-size: 24px;
+        font-size: 20px;
         color: #000ac0;
         font-family: 'JetBrains Mono', monospace;
     }
@@ -187,7 +186,7 @@
         color: #FFFDE7;
         display: flex;
         font-family: 'Imprima', sans-serif;
-        font-size: 48px;
+        font-size: 40px;
         flex-direction: column;
         align-items: center;
         padding-top: 101px;
@@ -198,10 +197,10 @@
         color: #FFFDE7;
         display: flex;
         font-family: 'Imprima', sans-serif;
-        font-size: 36px;
+        font-size: 28px;
         flex-direction: column;
         align-items: center;
-        padding-inline: 10%;
+        padding-inline: 5%;
         padding-top: 2%;
 
     }
@@ -212,7 +211,7 @@
     }
 
     .Logo{
-        width: 8%;
+        height: auto;
     }
  }
 
@@ -232,7 +231,7 @@
         background-repeat: no-repeat ;
         background-size: cover;
         width: auto;
-        height: 2024px;
+        height: 200%;
     }
 
     .Cabecalho{
