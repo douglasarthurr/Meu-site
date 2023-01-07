@@ -37,10 +37,8 @@
 
 # Autor
 
-<html> 
-    <img src="./images/eu.jpeg" width=115>
-    <br>
-</html>
+
+[<img src="https://avatars.githubusercontent.com/u/106849298?s=400&u=32da81625b4d70bc25578e099fce392b77b75634&v=4" width=115><br><sub>Douglas Arthur da Silva Bento</sub>](https://github.com/douglasarthurr)
 
 <html>
     <a href="https://github.com/douglasarthurr"> Douglas Arthur da Silva Bento</a>
