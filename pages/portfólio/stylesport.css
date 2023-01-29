@@ -31,6 +31,9 @@
         color: #010440;
         font-family: 'JetBrains Mono', monospace;
     }
+    #home{
+        color: #000ac0;
+    }
     .Cabecalho-item:hover{
         font-size: 8px;
         color: #000ac0;
@@ -149,6 +152,9 @@
         font-size: 18px;
         color: #010440;
         font-family: 'JetBrains Mono', monospace;
+    }
+    #home{
+        color: #000ac0;
     }
     .Cabecalho-item:hover{
         font-size: 18px;
@@ -276,6 +282,9 @@
         color: #010440;
         font-family: 'JetBrains Mono', monospace;
     }
+    #home{
+        color: #000ac0;
+    }
     .Cabecalho-item:hover{
         font-size: 20px;
         color: #000ac0;
@@ -394,6 +403,10 @@
         color: #010440;
         font-family: 'JetBrains Mono', monospace;
     }
+    #home{
+        color: #000ac0;
+    }
+
     .Cabecalho-item:hover{
         font-size: 24px;
         color: #000ac0;
