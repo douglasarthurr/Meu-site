@@ -8,7 +8,7 @@
     }
     body{
         font-size: 100%;
-        background-image: url("./images/fundo_cell.svg");
+        background-image: url("../../images/fundo_cell.svg");
         background-repeat: no-repeat ;
         background-size: cover;
         width: auto;
@@ -89,7 +89,7 @@
     }
     body{
         font-size: 100%;
-        background-image: url("./images/fundo_cell.svg");
+        background-image: url("../../images/fundo_cell.svg");
         background-repeat: no-repeat ;
         background-size: cover;
         width: auto;
@@ -170,7 +170,7 @@
     }
     body{
         font-size: 100%;
-        background-image: url("./images/fundo.svg");
+        background-image: url("../../images/fundo.svg");
         background-repeat: no-repeat ;
         background-size: cover;
         width: auto;
@@ -250,7 +250,7 @@
     }
     body{
         font-size: 100%;
-        background-image: url("./images/fundo.svg");
+        background-image: url("../../images/fundo.svg");
         background-repeat: no-repeat ;
         background-size: cover;
         width: auto;

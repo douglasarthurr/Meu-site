@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Imprima&family=JetBrains+Mono&family=Roboto:wght@700&display=swap');
-@media screen and (min-width: 0px){ 
+
+@media screen and (min-width: 0px){
     *{
         box-sizing: border-box;
         padding: 0;
@@ -9,13 +10,13 @@
 
     body{
         font-size: 100%;
-        background-image: url("./images/fundo_cell.svg");
-        background-repeat: no-repeat ;
+        background-image: url("../../images/fundo_cell.svg");
+        background-repeat: no-repeat;
         background-size: cover;
         width: auto;
         height: auto;
     }
-
+    
     .Cabecalho{
         width: auto;
         padding: 3px;
@@ -56,44 +57,7 @@
         flex-direction: column;
         align-items: center;
         padding-inline: 5%;
-
-    }
-    .texto1{
-        color: #FFFDE7;
-        display: flex;
-        font-family: 'Imprima', sans-serif;
-        font-size: 14px;
-        flex-direction: column;
-        align-items: center;
-        padding-top: 25px;
-        padding-inline: 5%;
-    }
-    .hover-text{
-        color: #FFFDE7;
-        display: flex;
-        font-family: 'Imprima', sans-serif;
-        font-size: 14px;
-        flex-direction: column;
-        align-items: center;
-        padding-top: 31px;
-    }
-    .hover-text:hover{
-        display: flex;
-        font-family: 'Imprima', sans-serif;
-        font-size: 14px;
-        flex-direction: column;
-        align-items: center;
-        padding-top: 31px;
-        color: #000ac0;
-    }
-
-    .manutencao{
-        display: block;
-        padding: 60px;
-        margin: 0 auto;
-        border-top: 0.4px solid #FFFDE7;
-        width: 70%;
-        height: 70%;
+        padding-top: 2%;
 
     }
 
@@ -101,10 +65,13 @@
         width: 8%;
     }
 
+    .texto:hover{
+        color: #000ac0;
+    }
 }
 
-@media screen and (min-width: 320px){  
 
+@media screen and (min-width: 320px){
     *{
         box-sizing: border-box;
         padding: 0;
@@ -114,13 +81,13 @@
 
     body{
         font-size: 100%;
-        background-image: url("./images/fundo_cell.svg");
-        background-repeat: no-repeat ;
+        background-image: url("../../images/fundo_cell.svg");
+        background-repeat: no-repeat;
         background-size: cover;
         width: auto;
         height: auto;
     }
-
+    
     .Cabecalho{
         width: auto;
         padding: 8px;
@@ -151,62 +118,33 @@
         align-items: center;
         padding-top: 70px;
         padding-bottom: 25px;
+        
     }
 
     .texto{
         color: #FFFDE7;
         display: flex;
         font-family: 'Imprima', sans-serif;
-        font-size: 18x;
+        font-size: 18px;
         flex-direction: column;
         align-items: center;
         padding-inline: 5%;
+        padding-top: 2%;
 
     }
-    .texto1{
-        color: #FFFDE7;
-        display: flex;
-        font-family: 'Imprima', sans-serif;
-        font-size: 18px;
-        flex-direction: column;
-        align-items: center;
-        padding-top: 25px;
-        padding-inline: 5%;
-    }
-    .hover-text{
-        color: #FFFDE7;
-        display: flex;
-        font-family: 'Imprima', sans-serif;
-        font-size: 18px;
-        flex-direction: column;
-        align-items: center;
-        padding-top: 25px;
-    }
-    .hover-text:hover{
-        display: flex;
-        font-family: 'Imprima', sans-serif;
-        font-size: 18px;
-        flex-direction: column;
-        align-items: center;
-        padding-top: 25px;
+
+    .texto:hover{
         color: #000ac0;
-    }
-
-    .manutencao{
-        display: block;
-        padding: 60px;
-        margin: 0 auto;
-        border-top: 0.4px solid #FFFDE7;
-        width: 70%;
-        height: 70%;
-
     }
 
     .Logo{
         height: auto;
     }
+
 }
-@media screen and (min-width: 834px){  
+
+
+@media screen and (min-width: 834px){
     *{
         box-sizing: border-box;
         padding: 0;
@@ -216,7 +154,7 @@
 
     body{
         font-size: 100%;
-        background-image: url("./images/fundo.svg");
+        background-image: url("../../images/fundo.svg");
         background-repeat: no-repeat ;
         background-size: cover;
         width: auto;
@@ -228,7 +166,7 @@
         padding: 24px;
         display: flex;
         flex-direction: row;
-        justify-content: space-evenly;
+        justify-content: space-around;
         align-items: center;
         background-color: #DCDCDC;
     }   
@@ -263,52 +201,24 @@
         flex-direction: column;
         align-items: center;
         padding-inline: 5%;
+        padding-top: 2%;
 
     }
-    .texto1{
-        color: #FFFDE7;
-        display: flex;
-        font-family: 'Imprima', sans-serif;
-        font-size: 28px;
-        flex-direction: column;
-        align-items: center;
-        padding-top: 31px;
-        padding-inline: 5%;
-    }
-    .hover-text{
-        color: #FFFDE7;
-        display: flex;
-        font-family: 'Imprima', sans-serif;
-        font-size: 28px;
-        flex-direction: column;
-        align-items: center;
-        padding-top: 31px;
-    }
-    .hover-text:hover{
-        display: flex;
-        font-family: 'Imprima', sans-serif;
-        font-size: 30px;
-        flex-direction: column;
-        align-items: center;
-        padding-top: 31px;
+
+
+    .texto:hover{
         color: #000ac0;
-    }
-
-    .manutencao{
-        display: block;
-        padding: 60px;
-        margin: 0 auto;
-        border-top: 0.4px solid #FFFDE7;
-       width: 70%;
     }
 
     .Logo{
         height: auto;
     }
-}
+ }
+
+
 
 @media screen and (min-width: 1138px){ 
-     *{
+    *{
         box-sizing: border-box;
         padding: 0;
         margin: 0;
@@ -317,7 +227,7 @@
 
     body{
         font-size: 100%;
-        background-image: url("./images/fundo.svg");
+        background-image: url("../../images/fundo.svg");
         background-repeat: no-repeat ;
         background-size: cover;
         width: auto;
@@ -326,7 +236,7 @@
 
     .Cabecalho{
         width: auto;
-        padding: px;
+        padding: 24px;
         display: flex;
         flex-direction: row;
         justify-content: space-around;
@@ -363,45 +273,17 @@
         font-size: 36px;
         flex-direction: column;
         align-items: center;
+        padding-bottom: 2%;
 
     }
-    .texto1{
-        color: #FFFDE7;
-        display: flex;
-        font-family: 'Imprima', sans-serif;
-        font-size: 36px;
-        flex-direction: column;
-        align-items: center;
-        padding-top: 31px;
-    }
-    .hover-text{
-        color: #FFFDE7;
-        display: flex;
-        font-family: 'Imprima', sans-serif;
-        font-size: 36px;
-        flex-direction: column;
-        align-items: center;
-        padding-top: 31px;
-    }
-    .hover-text:hover{
-        display: flex;
-        font-family: 'Imprima', sans-serif;
-        font-size: 36px;
-        flex-direction: column;
-        align-items: center;
-        padding-top: 31px;
+   
+    .texto:hover{
         color: #000ac0;
-    }
-
-    .manutencao{
-        display: block;
-        margin: 50;
-        padding: 80px;
-        margin: 0 auto;
-        border-top: 0.4px solid #FFFDE7;
     }
 
     .Logo{
         width: auto;
     }
+
+   
 }
